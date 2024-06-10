@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/vitas028/Roleta/static/css/main.da3ec078.css",
+    "main.js": "/vitas028/Roleta/static/js/main.d827c653.js",
+    "static/media/winner-bell-game-show.wav": "/vitas028/Roleta/static/media/winner-bell-game-show.dd92b8620b60636d8bf1.wav",
+    "static/media/LogoEducampo.png": "/vitas028/Roleta/static/media/LogoEducampo.e84e0bae5c35ec412490.png",
+    "static/media/bad-beep-incorrect.wav": "/vitas028/Roleta/static/media/bad-beep-incorrect.0d8cd91514b5d7fe4086.wav",
+    "static/media/Campton-Bold.otf": "/vitas028/Roleta/static/media/Campton-Bold.d63feafcf51c807bd9bd.otf",
+    "static/media/LogoSebrae.png": "/vitas028/Roleta/static/media/LogoSebrae.ba579773d9721cde0759.png",
+    "static/media/marcasebrae.png": "/vitas028/Roleta/static/media/marcasebrae.9a13f7f8039988f8ad24.png",
+    "index.html": "/vitas028/Roleta/index.html",
+    "main.da3ec078.css.map": "/vitas028/Roleta/static/css/main.da3ec078.css.map",
+    "main.d827c653.js.map": "/vitas028/Roleta/static/js/main.d827c653.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da3ec078.css",
+    "static/js/main.d827c653.js"
+  ]
+}
