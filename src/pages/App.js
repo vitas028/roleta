@@ -12,7 +12,7 @@ import { useNavigate } from 'react-router-dom';
 const App = () => {
   const navigate = useNavigate();
 
-  const segments = ['Varejo', 'Logística', 'Operacional'];
+  const segments = ['nutrição', 'produção', 'consumo'];
   const segColors = ['#faa230', '#055cba', '#bb1625'];
   const onFinished = (winner) => {
     //console.log(winner);
@@ -34,7 +34,7 @@ const App = () => {
   return (
     <>
       <div className="main_text">
-        <p>Varejo+ Experience</p>
+        <p>Agronegócio</p>
       </div>
       {responsive ? (
         ''

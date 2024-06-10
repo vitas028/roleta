@@ -1,475 +1,387 @@
 export const Perguntas = [
   {
-    tema: 'Operacional',
-    pergunta:
-      'Ao vender em Marketplaces é importante ter mais de um anúncio, com títulos diferentes, para o mesmo produto porque:',
+    tema: 'nutrição',
+    pergunta: 'Qual é a principal fonte de energia na dieta das vacas leiteiras?',
     alternativas: [
       {
-        texto:
-          'Issó possibilita trabalhar com objetivos de buscas diferentes, abrangendo varias formas de pesquisa.',
+        texto: 'Carboidratos',
         valor: true,
       },
       {
-        texto:
-          'Para os consumidores acharem que o produto vende muito e assim vender mais',
+        texto: 'Proteínas',
         valor: false,
       },
       {
-        texto:
-          'Faz com que o cliente queira comprar o mesmo produto mais de uma vez',
+        texto: 'Lipídios',
         valor: false,
       },
     ],
   },
   {
-    tema: 'Operacional',
-    pergunta:
-      'O investimento em ADS, mesmo vendendo nos Marketplaces, é importante porque:',
+    tema: 'nutrição',
+    pergunta: 'Qual é o principal componente sólido do leite?',
     alternativas: [
       {
-        texto:
-          'A publicidade hoje é necessaria pois com ela ampliamos os resultados de buscas onde os nossós anúncios aparecem.',
+        texto: 'Lactose',
         valor: true,
       },
       {
-        texto: 'Aumenta os gastos da empresa sem trazer muitos beneficios',
+        texto: ' Proteína',
         valor: false,
       },
       {
-        texto: 'Não é importante se você estiver vendendo em Marketplaces',
+        texto: 'Gordura',
         valor: false,
       },
     ],
   },
   {
-    tema: 'Operacional',
-    pergunta: 'Em relação ão titulo de um anúncio ele deve:',
+    tema: 'nutrição',
+    pergunta: 'Qual mineral é crucial para a formação da estrutura óssea e para a prevenção de distúrbios como a hipocalcemia em vacas leiteiras?',
     alternativas: [
       {
-        texto:
-          'Conter o nome, modelo, caracteristicas é marca. Todas essas informações ajudam a especificar seu produto é aparecer para as pessóas.',
+        texto: 'Cálcio',
         valor: true,
       },
       {
-        texto: 'Ser uma promessa falsa, para capturar a atenção do consumidor',
+        texto: 'Ferro',
         valor: false,
       },
       {
-        texto:
-          'Ser curto e incompleto, para que o cliente fique curioso e queira comprar',
+        texto: 'Potássio',
         valor: false,
       },
     ],
   },
   {
-    tema: 'Operacional',
-    pergunta: 'Uma boa descrição do seu produto é importante porque?',
+    tema: 'nutrição',
+    pergunta: 'O que é TMR (Total Mixed Ration) na alimentação de vacas leiteiras?',
     alternativas: [
       {
-        texto:
-          'A descrição sera um dos principais pontos para melhorar o SeO nos mecanismos de busca, issó porque nela estara presente tanto a palavra-chave como demais informações que podem potencializar as buscas.',
+        texto: ' Uma mistura completa de todos os ingredientes da dieta',
         valor: true,
       },
-      { texto: 'E na descrição onde você atrai mais clientes.', valor: false },
-      { texto: 'A descrição valoriza o valor do produto', valor: false },
+      { texto: 'Alimento exclusivamente à base de grãos', valor: false },
+      { texto: 'Alimentos concentrados apenas', valor: false },
     ],
   },
   {
-    tema: 'Operacional',
-    pergunta:
-      'Ter boas fotos com iluminação adequada, qualidade alta, ambientação é diversós angulos, é importante porque:',
+    tema: 'nutrição',
+    pergunta: 'Qual é a temperatura ideal da água para vacas leiteiras?',
     alternativas: [
       {
-        texto: 'Ajudam o cliente a decidir se realizara a compra.',
+        texto: '15-20°C',
         valor: true,
       },
-      { texto: 'Faz os clientes perderem o interesse', valor: false },
+      { texto: '0-5°C', valor: false },
       {
-        texto: 'Confunde o consumidor na hora de realizar a venda',
-        valor: false,
-      },
-    ],
-  },
-  {
-    tema: 'Operacional',
-    pergunta: 'Oferecer um prazo de entrega otimizado é importante porque:',
-    alternativas: [
-      {
-        texto:
-          'Quem compra quer receber o seu produto no menor tempo possivel é issó é um dos fatores de decisão de compra.',
-        valor: true,
-      },
-      {
-        texto: 'As vendas não são influenciadas pelo prazo de entrega',
-        valor: false,
-      },
-      {
-        texto: 'Não é um fator de decisão de compra do consumidor',
+        texto: '25-30°C',
         valor: false,
       },
     ],
   },
   {
-    tema: 'Operacional',
-    pergunta:
-      'O Frete Gratis pode ser uma estratégia interessante para alavancar as vendas porque:',
+    tema: 'nutrição',
+    pergunta: 'O que é uma dieta de alto teor de concentrado?',
     alternativas: [
       {
-        texto:
-          'Entregas gratuitas são um grande incentivo para atrair compradores as suas publicações.',
+        texto: 'Uma dieta em que uma grande parte da grãos, farelos e outros suplementos ricos em energia e nutrientes.',
         valor: true,
       },
       {
-        texto: 'Entregas gratis só atraem um unico tipo de comprador',
+        texto: 'Uma dieta rica em fibras',
         valor: false,
       },
       {
-        texto: 'É melhor oferecer frete gratis do que desconto nas vendas',
+        texto: 'Uma dieta baseada apenas em forragem',
         valor: false,
       },
     ],
   },
   {
-    tema: 'Operacional',
-    pergunta:
-      'Entender as regras dos Marketplaces que atua é importante porque?',
+    tema: 'nutrição',
+    pergunta: 'Qual é o objetivo principal do monitoramento da composição do leite?',
     alternativas: [
       {
-        texto:
-          'Casó descumpra as regras para os anúncios você podera ser penalizado, chegando ate a ter a conta bloqueada, ficando impossibilitado de vender naquele Marketplace.',
+        texto: 'Garantir a qualidade do leite produzido',
         valor: true,
       },
       {
-        texto: 'Para denunciar outros anúncios e assim eliminar concorrência',
+        texto: ' Aumentar a produção de leite',
         valor: false,
       },
       {
-        texto: 'Para saber quais regras deve descumprir sem ser bloqueado',
+        texto: 'Controlar a temperatura do leite',
         valor: false,
       },
     ],
   },
   {
-    tema: 'Varejo',
-    pergunta:
-      'Na hora de decidir se fecha uma compra ou não, o consumidor sempre avalia o valor do frete e o prazo de entrega. Isso impacta nas vendas porque:',
+    tema: 'nutrição',
+    pergunta: 'Qual é a principal forma de prevenir a acidose ruminal em vacas leiteiras?',
     alternativas: [
       {
-        texto:
-          'Contar com tarifas altas ou tempo de entrega extenso faz com que as pessóas evitem seus produtos.',
+        texto: 'Balanceamento e correto fornecimento da dieta',
         valor: true,
       },
       {
-        texto: 'O valor do frete é mais importante que o do produto',
+        texto: ' Aumentar a ingestão de proteínas',
         valor: false,
       },
       {
-        texto: 'Para comprar em outro lugar sem pagar o frete.',
+        texto: 'Reduzir o consumo de água',
         valor: false,
       },
     ],
   },
   {
-    tema: 'Varejo',
-    pergunta:
-      'Analisar os precos praticados pela concorrência é produtos que estao “em alta” te ajudara?',
+    tema: 'nutrição',
+    pergunta: 'O que é a CCS (Contagem de Células Somáticas) no leite?',
     alternativas: [
       {
-        texto:
-          'Sim, ajudara a identificar muitas oportunidades de melhorar seu mix, de melhorar a oferta de produtos.',
+        texto: 'Indicador de saúde da glândula mamária',
         valor: true,
       },
       {
-        texto: 'Sim, para falar mal dos concorrentes para os clientes.',
+        texto: 'Indicador de teor de gordura no leite',
         valor: false,
       },
       {
-        texto: 'Não, tenha seus proprios precos e produtos.',
+        texto: 'Indicador de teor de lactose no leite',
         valor: false,
       },
     ],
   },
   {
-    tema: 'Varejo',
-    pergunta:
-      'No perfil do @varejomais.sebrae no Instagram, você encontrará muita informação sobre:',
+    tema: 'nutrição',
+    pergunta: 'Qual é a importância da vitamina E na dieta das vacas leiteiras?',
     alternativas: [
       {
-        texto: 'Como se destacar vendendo on-line e off-line',
+        texto: 'Protege contra danos oxidativos',
         valor: true,
       },
       {
-        texto: 'Como se destacar vendendo somente on-line',
+        texto: 'Melhora a digestão',
         valor: false,
       },
       {
-        texto: 'Como se destacar vendendo somente off-line',
+        texto: 'Estimula a produção de leite',
         valor: false,
       },
     ],
   },
   {
-    tema: 'Varejo',
-    pergunta: 'Conquistar boas avaliações é importante porque:',
+    tema: 'nutrição',
+    pergunta: 'O que é o método de ordenha robotizada?',
     alternativas: [
       {
-        texto:
-          'Apos observar preco, condição de pagamento e frete, os compradores tendem a consultar a opiniao de outras pessoas para saber a experiência delas tanto no ato da compra quanto com o uso do produto.',
+        texto: 'Ordenha automatizada sem a necessidade de intervenção humana',
         valor: true,
       },
       {
-        texto: 'Seu negócio fica mais conhecido pelos seus clientes',
+        texto: ' Ordenha manual com auxílio de máquinas',
         valor: false,
       },
       {
-        texto:
-          'Possibilita vender produtos de menor qualidade por um preco mais alto, ja que as avaliações são boas.',
+        texto: 'Ordenha com uso exclusivo de máquinas',
         valor: false,
       },
     ],
   },
   {
-    tema: 'Varejo',
-    pergunta:
-      'Na hora de decidir se fecha uma compra ou não, o consumidor sempre avalia o valor do frete e o prazo de entrega porque?',
+    tema: 'nutrição',
+    pergunta: 'O que é o pH ruminal e por que é importante para a saúde das vacas leiteiras?',
     alternativas: [
       {
-        texto:
-          'Contar com tarifas altas ou tempo de entrega extenso faz com que as pessóas evitem seus produtos.',
+        texto: 'É o nível de acidez no rúmen das vacas; influencia na digestão e no bem-estar',
         valor: true,
       },
       {
-        texto: 'O valor do frete é mais importante que o do produto.',
+        texto: 'É a quantidade de proteínas na dieta; afeta a produção de leite',
         valor: false,
       },
       {
-        texto: 'Para comprar em outro lugar sem pagar o frete',
+        texto: 'É a taxa de crescimento bacteriano no intestino das vacas; influencia na absorção de nutrientes',
         valor: false,
       },
     ],
   },
   {
-    tema: 'Varejo',
-    pergunta: 'É um ponto extremamente importante na descrição dos produtos:',
+    tema: 'nutrição',
+    pergunta: 'O que é a secagem em vacas leiteiras?',
     alternativas: [
       {
-        texto:
-          'Uso de palavras-chave no titulo e na descrição, pois as Palavras-chave são os termos mais usados pelos usuarios para pesquisar sobre um produto.',
+        texto: 'Período que antecede o parto, no qual a vaca é retirada da ordenha para descanso',
         valor: true,
       },
       {
-        texto: 'Todas as informações técnicas possiveis sobre o produto.',
+        texto: 'Período após o parto, no qual a produção de leite é reduzida',
         valor: false,
       },
       {
-        texto: 'Informações sobre outros produtos da loja.',
+        texto: 'Período de transição entre a lactação e o período seco',
         valor: false,
       },
     ],
   },
   {
-    tema: 'Varejo',
-    pergunta: 'Para ter mais visualizações dentro de um marketplace você pode?',
+    tema: 'nutrição',
+    pergunta: 'O que é a ureia e qual é sua função na dieta das vacas leiteiras?',
     alternativas: [
       {
-        texto: 'Anunciar dentro do marketplace onde vende',
+        texto: 'Fonte de nitrogenio não protéico no rúmen, atender as exigencias de proteína do animal.',
         valor: true,
       },
       {
-        texto: 'Comentar em anúncios de outras pessóas',
+        texto: 'Fonte de carboidratos complexos; aumenta a energia disponível',
         valor: false,
       },
       {
-        texto: 'Fazer anúncios que não condizem com a realidade',
+        texto: 'Fonte de minerais; promove a saúde óssea',
         valor: false,
       },
     ],
   },
   {
-    tema: 'Varejo',
-    pergunta:
-      'Em relação as perguntas feitas pelos clientes on-line você deve:',
+    tema: 'nutrição',
+    pergunta: 'O que é a relação energia-proteína na dieta das vacas leiteiras e por que é importante?',
     alternativas: [
       {
-        texto:
-          'Responder rapidamente e cordialmente, pois as perguntas são uma fonte de venda riquissima, não deixe de ser proativo e responder pelo menos no intervalo de 1h.',
+        texto: ' Proporção balanceada entre energia e proteína na dieta; influencia na produção e na qualidade do leite',
         valor: true,
       },
       {
-        texto:
-          'Responder apenas as que corresponderem a duvidas sobre compras.',
+        texto: 'Proporção de lipídios e carboidratos na dieta; influencia na coloração do leite',
         valor: false,
       },
       {
-        texto:
-          'Esperar acumular perguntas para responder varias de uma vez, otimizando seu tempo.',
+        texto: 'Proporção de fibras e minerais na dieta; influencia na saúde digestiva da vaca',
         valor: false,
       },
     ],
   },
   {
-    tema: 'Logística',
-    pergunta:
-      'Ao vender em Marketplaces é importante ter mais de um anúncio, com títulos diferentes, para o mesmo produto porque:',
+    tema: 'consumo',
+    pergunta: 'Indivíduos com intolerância à lactose podem apresentar sintomas digestivos após o consumo de leite. Qual o mecanismo bioquímico por trás dessa intolerância?',
     alternativas: [
       {
-        texto:
-          'Isso possibilita trabalhar com objetivos de buscas diferentes, abrangendo várias formas de pesquisa.',
+        texto: 'Ausência da enzima lactase no intestino delgado, responsável pela digestão da lactose. ',
         valor: true,
       },
       {
-        texto:
-          'Para os consumidores acharem que o produto vende muito e assim vender mais',
+        texto: 'Presença de anticorpos contra proteínas do leite no sangue, causando uma reação alérgica. ',
         valor: false,
       },
       {
-        texto:
-          'Faz com que o cliente queira comprar o mesmo produto mais de uma vez',
+        texto: 'Dificuldade na absorção de cálcio e outros minerais presentes no leite.',
         valor: false,
       },
     ],
   },
   {
-    tema: 'Logística',
-    pergunta:
-      'Apura indicadores de vendas como: Ticket Médio; Preco Médio e Taxa de conversão é importante porque:',
+    tema: 'consumo',
+    pergunta: 'O consumo de leite e derivados lácteos pode estar associado à redução do risco de osteoporose. Qual o mecanismo pelo qual esses alimentos contribuem para a saúde óssea?',
     alternativas: [
       {
-        texto:
-          'Apurar os indicadores de vendas permitirá que você faca a projeção dos resultados mediante a realização de uma promoção de descontos para atrair mais clientes por exemplo, permitindo avaliar se a promoção será vantajosa ou não para o negócio.',
+        texto: 'Fornecem cálcio e vitamina D, nutrientes essenciais para a formação e manutenção dos ossos.',
         valor: true,
       },
       {
-        texto:
-          'Ao apurar os indicadores de vendas o empresario podera planejar melhor seu fluxo de caixa, evitando perdas com despesas financeiras desnecessarias.',
+        texto: 'Estimulam a produção de células ósseas e reduzem a atividade das células que reabsorvem os ossos.',
         valor: false,
       },
       {
-        texto:
-          'Pensando mais a longo prazo, os indicadores de vendas poderao ser dissociados de todos os recursos disponiveis na empresa, desde que se tenha um planejamento estratégico consistente.',
+        texto: 'Diminuem a inflamação no corpo, um fator de risco para o desenvolvimento da osteoporose.',
         valor: false,
       },
     ],
   },
   {
-    tema: 'Logística',
-    pergunta:
-      'Porque é importante segmentar seu publico-alvo para o definir o posicionamento do negócio?',
+    tema: 'consumo',
+    pergunta: 'A enriquecimento do leite com vitamina D é uma prática comum em diversos países. Qual a importância dessa ação para a saúde da população?',
     alternativas: [
       {
-        texto:
-          'Ao segmentar seu mercado, você consegue entender com maior profundidade quem são seus potenciais clientes, bem como qual é a melhor forma de abordá-los, tornando a comunicação mais fácil e assertiva.',
+        texto: 'Prevenir o raquitismo, uma doença óssea causada pela deficiência de vitamina D. ',
         valor: true,
       },
       {
-        texto:
-          'A segmentação é importante porque com ela você podera atender a varios pubicos diferentes, ampliando o universo de clientes do negocio.',
+        texto: 'Fortalecer o sistema imunológico e reduzir o risco de doenças autoimunes.',
         valor: false,
       },
       {
-        texto:
-          'Segmentar seu público alvo ajudará a definir estratégias de marketing para as divulgações em massa que atendam a todas as pessoas.',
+        texto: 'Melhorar a absorção de cálcio e contribuir para a saúde óssea.',
         valor: false,
       },
     ],
   },
   {
-    tema: 'Logística',
-    pergunta:
-      'Promover programa de relacionamento com vantagens e benefícios diferentes de clientes anônimos?',
+    tema: 'produção',
+    pergunta: 'O bem-estar animal é um aspecto crucial na produção leiteira. Quais são os principais indicadores que podem ser utilizados para avaliar o bem-estar das vacas leiteiras?',
     alternativas: [
       {
-        texto:
-          'Issó podera aumentar a percepção do cliente de vantagens é beneficios, contribuindo para o aumento de vendas é fidelização.',
+        texto: 'Condição corporal, comportamento, acesso a água fresca e pastagens, e instalações adequadas.',
         valor: true,
       },
       {
-        texto:
-          'Isso possibilitará eu se conheca os clientes mais chatos e que devem ser evitados pelos vendedores.',
+        texto: 'Nível de produção de leite, taxa de reprodução e incidência de doenças.',
         valor: false,
       },
       {
-        texto:
-          'Issó permitira a realização de campanhas promocionais com foco em novos clientes.',
+        texto: 'Custo da produção, qualidade do leite e margem de lucro da empresa leiteira.',
         valor: false,
       },
     ],
   },
   {
-    tema: 'Logística',
-    pergunta:
-      'Em relação as perguntas feitas pelos clientes on-line você deve:',
+    tema: 'produção',
+    pergunta: 'A ordenha robotizada vem ganhando espaço na produção leiteira moderna. Quais são as principais vantagens e desvantagens da utilização desse sistema em comparação com a ordenha tradicional?',
     alternativas: [
       {
-        texto:
-          'Responder rapidamente e cordialmente, pois as perguntas são uma fonte de venda riquíssima, não deixe de ser proativo e responder pelo menos no intervalo de 1h.',
+        texto: 'Vantagens: Maior eficiência e higiene, redução da mão de obra, bem-estar animal. Desvantagens: Alto custo de implantação, necessidade de vacas adaptadas e infraestrutura específica.',
         valor: true,
       },
       {
-        texto: 'Responder apenas as que corresponderem a dúvidas sobre compras',
+        texto: 'Vantagens: Menor tempo de ordenha, aumento da produção de leite. Desvantagens: Maior incidência de mastite, estresse para as vacas devido ao confinamento.',
         valor: false,
       },
       {
-        texto:
-          'Esperar acumular perguntas para responder várias de uma vez, otimizando seu tempo.',
+        texto: 'Vantagens: Menor custo operacional, facilidade de implementação. Desvantagens: Maior exigência de mão de obra qualificada, aumento do risco de lesões nas vacas.',
         valor: false,
       },
     ],
   },
   {
-    tema: 'Logística',
-    pergunta: 'É importante caprichar na descrição dos produtos pois:',
+    tema: 'produção',
+    pergunta: 'A composição do leite bovino pode variar de acordo com diversos fatores. Quais são os principais fatores que influenciam a qualidade nutricional do leite produzido por vacas leiteiras?',
     alternativas: [
       {
-        texto:
-          'Colocando o maximo de informações possivel nos anúncios o cliente tera mais seguranca sobre o que esta comprando e reduzirá a quantidade de devoluções.',
+        texto: 'Raça da vaca, fase de lactação, dieta e manejo nutricional.',
         valor: true,
       },
       {
-        texto:
-          'Quanto mais formações na descrição do anúncio mais valorizado é o seu produto.',
+        texto: 'Clima da região, condições de higiene na ordenha, temperatura de armazenamento.',
         valor: false,
       },
       {
-        texto: 'Uma descrição rasa e direta aumenta as vendas.',
+        texto: 'Uso de medicamentos veterinários, presença de resíduos de antibióticos no leite.',
         valor: false,
       },
     ],
   },
   {
-    tema: 'Logística',
-    pergunta: 'O que utilizar para aumenta a atratividade de um anúncio?',
+    tema: 'produção',
+    pergunta: 'A mastite é uma infecção bacteriana comum na glândula mamária de vacas leiteiras. Quais são os principais impactos econômicos e sanitários da mastite na produção leiteira?',
     alternativas: [
       {
-        texto: 'Fotos bem elaboradas.',
+        texto: 'Redução na qualidade do leite, perdas econômicas devido ao descarte de leite contaminado, aumento do uso de medicamentos veterinários.',
         valor: true,
       },
       {
-        texto: 'Preços fora do padrão do mercado',
+        texto: 'Aumento da mortalidade de bezerros recém-nascidos devido à ingestão de leite contaminado, impacto negativo na imagem do produto final.',
         valor: false,
       },
       {
-        texto: 'Falsas promessas para os clientes',
-        valor: false,
-      },
-    ],
-  },
-  {
-    tema: 'Logística',
-    pergunta:
-      'Por que é importante ficar atento as perguntas e respondê-las no menor prazo possivel ?',
-    alternativas: [
-      {
-        texto:
-          'Porque isso diminui a chance de o cliente buscar outro vendedor.',
-        valor: true,
-      },
-      {
-        texto: 'Para ter mais tempo livre.',
-        valor: false,
-      },
-      {
-        texto: 'Pois quanto menor o contato com o cliente, melhor.',
+        texto: 'Diminuição na produção de leite, comprometimento do bem-estar animal e aumento do descarte de vacas doentes.',
         valor: false,
       },
     ],

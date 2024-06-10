@@ -1,5 +1,5 @@
 import { useParams, Link } from 'react-router-dom';
-import { Perguntas } from '../perguntas';
+import { Perguntas } from '../Perguntas.js';
 import LogoVarejoBranco from '../assets/Logo_Varejo_Branco.png';
 import MarcaSebraeBranca from '../assets/marca-sebrae-branca.png';
 import PerguntaCard from '../components/PerguntaCard';
@@ -9,9 +9,9 @@ export default function PaginaPerguntas() {
 
   let corTema = '';
 
-  if (tema === 'Varejo') {
+  if (tema === 'nutrição') {
     corTema = '#faa230';
-  } else if (tema === 'Logística') {
+  } else if (tema === 'produção') {
     corTema = '#055cba';
   } else {
     corTema = '#bb1625';
