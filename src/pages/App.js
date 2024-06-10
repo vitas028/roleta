@@ -1,11 +1,9 @@
 import React from 'react';
 import WheelComponent from '../components/wheel';
 import '../index.css';
-import LogoVarejo from '../assets/Logo_Varejo.png';
-import LogoFocus from '../assets/Logo_Focus.png';
+import LogoSebrae from '../assets/LogoSebrae.png';
+import LogoEducampo from '../assets/LogoEducampo.png';
 import ClickIcon from '../assets/Click_Icon.jpeg';
-import MarcaSebrae from '../assets/marca-sebrae.png';
-import LogoToner from '../assets/LogoToner.png';
 
 import { useNavigate } from 'react-router-dom';
 
@@ -56,10 +54,10 @@ const App = () => {
         fontFamily="Arial"
       />
       <div className="left_img">
-        <img src={LogoVarejo} alt="Logo Varejo" />
+        <img src={LogoSebrae} alt="Logo Sebrae" />
       </div>
       <div className="right_img">
-        <img src={LogoFocus} alt="Logo Sebrae" />
+        <img src={LogoEducampo} alt="Logo Sebrae" />
       </div>
     </>
   );
