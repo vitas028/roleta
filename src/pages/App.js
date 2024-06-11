@@ -11,7 +11,7 @@ const App = () => {
   const navigate = useNavigate();
 
   const segments = ['nutrição', 'produção', 'consumo'];
-  const segColors = ['#faa230', '#055cba', '#bb1625'];
+  const segColors = ['#5B792F', '#005EB8', '#00919D'];
   const onFinished = (winner) => {
     //console.log(winner);
     setTimeout(() => {
@@ -32,7 +32,7 @@ const App = () => {
   return (
     <>
       <div className="main_text">
-        <p>Agronegócio</p>
+        <p>Quiz Leite</p>
       </div>
       {responsive ? (
         ''

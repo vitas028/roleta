@@ -10,11 +10,11 @@ export default function PaginaPerguntas() {
   let corTema = '';
 
   if (tema === 'nutrição') {
-    corTema = '#faa230';
+    corTema = '#5B792F';
   } else if (tema === 'produção') {
-    corTema = '#055cba';
+    corTema = '#005EB8';
   } else {
-    corTema = '#bb1625';
+    corTema = '#00919D';
   }
 
   /* if (botaoVoltar.style.backgroundColor === '#fff') {
